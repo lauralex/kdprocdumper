@@ -9,6 +9,9 @@ The UM component communicates with the KM component in the following way:
 
 Finally, the UM component will fix the PE file, adjusting the section headers, optional header and the debug directory
 
+## Note
+The `PeFileFixer` VS project is just to experiment with the PE file adjustements, only the `ProcDumper` and `UMProcDumper` are actually needed.
+
 ## Features
 - Kernel-mode process dumping
 - Specific module dumping
