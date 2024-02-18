@@ -12,4 +12,5 @@ Finally, the UM component will fix the PE file, adjusting the section headers, o
 ## Features
 - Kernel-mode process dumping
 - Specific module dumping
+- IOCTL communication between UM and KM
 - PE file fixes
